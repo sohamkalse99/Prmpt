@@ -1,0 +1,1054 @@
+{
+    "0": {
+        "invocation": "Change directory to a different path",
+        "cmd": "cd /path/to/directory"
+    },
+    "1": {
+        "invocation": "List files in long format",
+        "cmd": "ls -l"
+    },
+    "2": {
+        "invocation": "Print the physical path of the current directory",
+        "cmd": "pwd -P"
+    },
+    "3": {
+        "invocation": "Create a new file",
+        "cmd": "touch newfile.txt"
+    },
+    "4": {
+        "invocation": "Print a message to the console",
+        "cmd": "echo \"Hello, world!\""
+    },
+    "5": {
+        "invocation": "Display the contents of a file",
+        "cmd": "cat myfile.txt"
+    },
+    "6": {
+        "invocation": "Copy a file to a new location",
+        "cmd": "cp myfile.txt newfile.txt"
+    },
+    "7": {
+        "invocation": "Rename a file",
+        "cmd": "mv myfile.txt renamedfile.txt"
+    },
+    "8": {
+        "invocation": "Delete a file",
+        "cmd": "rm oldfile.txt"
+    },
+    "9": {
+        "invocation": "Create a new directory",
+        "cmd": "mkdir newdir"
+    },
+    "10": {
+        "invocation": "Remove an empty directory",
+        "cmd": "rmdir emptydir"
+    },
+    "11": {
+        "invocation": "Change permissions of a file",
+        "cmd": "chmod 755 myfile.txt"
+    },
+    "12": {
+        "invocation": "Change ownership of a file",
+        "cmd": "chown user:group myfile.txt"
+    },
+    "13": {
+        "invocation": "Search for a pattern in a file",
+        "cmd": "grep pattern myfile.txt"
+    },
+    "14": {
+        "invocation": "Replace a pattern in a file",
+        "cmd": "sed 's/find/replace/' myfile.txt"
+    },
+    "15": {
+        "invocation": "Print a specific column of a file using awk",
+        "cmd": "awk '{print $1}' myfile.txt"
+    },
+    "16": {
+        "invocation": "List all running processes",
+        "cmd": "ps -ef"
+    },
+    "17": {
+        "invocation": "Kill a process by its PID",
+        "cmd": "kill -9 1234"
+    },
+    "18": {
+        "invocation": "List all processes owned by a user",
+        "cmd": "ps -u user"
+    },
+    "19": {
+        "invocation": "Display free memory on the system",
+        "cmd": "free -h"
+    },
+    "20": {
+        "invocation": "Display the total size of all files in the current directory",
+        "cmd": "du -csh *"
+    },
+    "21": {
+        "invocation": "Create a symbolic link to a file",
+        "cmd": "ln -s myfile.txt symlink.txt"
+    },
+    "22": {
+        "invocation": "Add a new user to the system",
+        "cmd": "sudo adduser newuser"
+    },
+    "23": {
+        "invocation": "Display the manual page for a command",
+        "cmd": "man command"
+    },
+    "24": {
+        "invocation": "Redirect output from a command to a file",
+        "cmd": "command > output.txt"
+    },
+    "25": {
+        "invocation": "Append output from a command to a file",
+        "cmd": "command >> output.txt"
+    },
+    "26": {
+        "invocation": "last 10 lines of a file",
+        "cmd": "tail -n 10 file.txt"
+    },
+    "27": {
+        "invocation": "Display the first 5 lines of a file",
+        "cmd": "head -n 5 file.txt"
+    },
+    "28": {
+        "invocation": "Create a compressed archive of a directory",
+        "cmd": "tar -czvf archive.tar.gz directory/"
+    },
+    "29": {
+        "invocation": "Extract a compressed archive",
+        "cmd": "tar -xzvf archive.tar.gz"
+    },
+    "30": {
+        "invocation": "Find and replace text in multiple files",
+        "cmd": "sed -i 's/find/replace/g' *.txt"
+    },
+    "31": {
+        "invocation": "Find and replace text in a file and make a backup of the original file",
+        "cmd": "sed -i.bak 's/find/replace/g' file.txt"
+    },
+    "32": {
+        "invocation": "Create a new group",
+        "cmd": "sudo addgroup newgroup"
+    },
+    "33": {
+        "invocation": "Add a user to a group",
+        "cmd": "sudo adduser user newgroup"
+    },
+    "34": {
+        "invocation": "Display the current date",
+        "cmd": "date +%F"
+    },
+    "35": {
+        "invocation": "Display a calendar for a specific month and year",
+        "cmd": "cal 05 2023"
+    },
+    "36": {
+        "invocation": "Display the hostname of the system",
+        "cmd": "hostname"
+    },
+    "37": {
+        "invocation": "Display the IP address of the system",
+        "cmd": "hostname -I"
+    },
+    "38": {
+        "invocation": "Display the DNS resolver configuration of the system",
+        "cmd": "cat /etc/resolv.conf"
+    },
+    "39": {
+        "invocation": "Display the environment variables",
+        "cmd": "printenv"
+    },
+    "40": {
+        "invocation": "Display the current user",
+        "cmd": "whoami"
+    },
+    "41": {
+        "invocation": "Display the available disk space",
+        "cmd": "df -h"
+    },
+    "42": {
+        "invocation": "Display the network interfaces and their configuration",
+        "cmd": "ip addr show"
+    },
+    "43": {
+        "invocation": "Display the routing table for the system",
+        "cmd": "netstat -nr"
+    },
+    "44": {
+        "invocation": "List all files in a directory and its subdirectories",
+        "cmd": "find /path/to/directory -type f"
+    },
+    "45": {
+        "invocation": "Display the system load average",
+        "cmd": "uptime"
+    },
+    "46": {
+        "invocation": "Display a summary of memory usage by process",
+        "cmd": "ps aux | awk '{print $4, $11}' | sort | uniq -c | sort -nr"
+    },
+    "47": {
+        "invocation": "Display a summary of disk usage by directory",
+        "cmd": "du -h /path/to/directory | sort -hr"
+    },
+    "48": {
+        "invocation": "Compress a file using gzip",
+        "cmd": "gzip myfile.txt"
+    },
+    "49": {
+        "invocation": "Decompress a file using gzip",
+        "cmd": "gunzip myfile.txt.gz"
+    },
+    "50": {
+        "invocation": "Compress a file using bzip2",
+        "cmd": "bzip2 myfile.txt"
+    },
+    "51": {
+        "invocation": "Decompress a file using bzip2",
+        "cmd": "bunzip2 myfile.txt.bz2"
+    },
+    "52": {
+        "invocation": "Compress a file using xz",
+        "cmd": "xz myfile.txt"
+    },
+    "53": {
+        "invocation": "Decompress a file using xz",
+        "cmd": "unxz myfile.txt.xz"
+    },
+    "54": {
+        "invocation": "Compress a file using zip",
+        "cmd": "zip myfile.zip myfile.txt"
+    },
+    "55": {
+        "invocation": "Decompress a file using unzip",
+        "cmd": "unzip myfile.zip"
+    },
+    "56": {
+        "invocation": "Create a new file and set its permissions",
+        "cmd": "umask 077 && touch newfile.txt"
+    },
+    "57": {
+        "invocation": "Display the running kernel version",
+        "cmd": "uname -r"
+    },
+    "58": {
+        "invocation": "Display information about the CPU",
+        "cmd": "lscpu"
+    },
+    "59": {
+        "invocation": "Display information about the memory",
+        "cmd": "lsmem"
+    },
+    "60": {
+        "invocation": "Display information about the system hardware",
+        "cmd": "lshw"
+    },
+    "61": {
+        "invocation": "Display information about the network interfaces",
+        "cmd": "ifconfig"
+    },
+    "62": {
+        "invocation": "Display the contents of a compressed file without decompressing it",
+        "cmd": "zcat myfile.txt.gz"
+    },
+    "63": {
+        "invocation": "Display the contents of a compressed file without decompressing it",
+        "cmd": "bzcat myfile.txt.bz2"
+    },
+    "64": {
+        "invocation": "Display the contents of a compressed file without decompressing it",
+        "cmd": "xzcat myfile.txt.xz"
+    },
+    "65": {
+        "invocation": "Display the top CPU-consuming processes",
+        "cmd": "top -o %CPU"
+    },
+    "66": {
+        "invocation": "Display the top memory-consuming processes",
+        "cmd": "top -o %MEM"
+    },
+    "67": {
+        "invocation": "Display the disk usage of all files and directories in the current directory",
+        "cmd": "du -sh *"
+    },
+    "68": {
+        "invocation": "Display the total number of files in a directory",
+        "cmd": "ls -1 /path/to/directory | wc -l"
+    },
+    "69": {
+        "invocation": "Create a new directory and set its permissions",
+        "cmd": "umask 077 && mkdir newdir"
+    },
+    "70": {
+        "invocation": "List all users on the system",
+        "cmd": "cut -d: -f1 /etc/passwd"
+    },
+    "71": {
+        "invocation": "List all groups on the system",
+        "cmd": "cut -d: -f1 /etc/group"
+    },
+    "72": {
+        "invocation": "Display the current working directory",
+        "cmd": "pwd"
+    },
+    "73": {
+        "invocation": "Display the size of a file in bytes",
+        "cmd": "stat -c %s myfile.txt"
+    },
+    "74": {
+        "invocation": "Display the file type of a file",
+        "cmd": "file myfile.txt"
+    },
+    "75": {
+        "invocation": "Find all files with a specific extension in a directory",
+        "cmd": "find /path/to/directory -name '*.txt'"
+    },
+    "76": {
+        "invocation": "Display the processes with the highest number of file descriptors",
+        "cmd": "lsof -n | awk '{print $2}' | sort | uniq -c | sort -nr | head"
+    },
+    "77": {
+        "invocation": "Display the processes with the highest number of open network connections",
+        "cmd": "lsof -i | awk '{print $1}' | sort | uniq -c | sort -nr | head"
+    },
+    "78": {
+        "invocation": "Display the processes with the highest number of open files",
+        "cmd": "lsof | awk '{print $2}' | sort | uniq -c | sort -nr | head"
+    },
+    "79": {
+        "invocation": "Display the disk usage of a specific directory",
+        "cmd": "du -sh /path/to/directory"
+    },
+    "80": {
+        "invocation": "Create a new file and add text to it",
+        "cmd": "echo \"Hello, world!\" > myfile.txt"
+    },
+    "81": {
+        "invocation": "Display the contents of a compressed file without decompressing it",
+        "cmd": "unzip -p myfile.zip"
+    },
+    "82": {
+        "invocation": "Display the contents of a compressed file without decompressing it",
+        "cmd": "tar -xzOf archive.tar.gz myfile.txt"
+    },
+    "83": {
+        "invocation": "Create a new empty file and set its permissions",
+        "cmd": "umask 077 && : > newfile.txt"
+    },
+    "84": {
+        "invocation": "Display the number of lines in a file",
+        "cmd": "wc -l myfile.txt"
+    },
+    "85": {
+        "invocation": "Display the number of words in a file",
+        "cmd": "wc -w myfile.txt"
+    },
+    "86": {
+        "invocation": "Display the number of characters in a file",
+        "cmd": "wc -c myfile.txt"
+    },
+    "87": {
+        "invocation": "Display the number of bytes in a file",
+        "cmd": "wc -c myfile.txt"
+    },
+    "88": {
+        "invocation": "Display the sum of a column in a file",
+        "cmd": "awk '{s+=$1} END {print s}' myfile.txt"
+    },
+    "89": {
+        "invocation": "Display the average of a column in a file",
+        "cmd": "awk '{s+=$1} END {print s/NR}' myfile.txt"
+    },
+    "90": {
+        "invocation": "Display the maximum value of a column in a file",
+        "cmd": "awk '{if ($1>max) max=$1} END {print max}' myfile.txt"
+    },
+    "91": {
+        "invocation": "Display the minimum value of a column in a file",
+        "cmd": "awk '{if ($1<min || NR==1) min=$1} END {print min}' myfile.txt"
+    },
+    "92": {
+        "invocation": "Display the last modified time of a file",
+        "cmd": "stat -c %y myfile.txt"
+    },
+    "93": {
+        "invocation": "Display the owner of a file",
+        "cmd": "stat -c %U myfile.txt"
+    },
+    "94": {
+        "invocation": "Display the group owner of a file",
+        "cmd": "stat -c %G myfile.txt"
+    },
+    "95": {
+        "invocation": "Change the owner of a file",
+        "cmd": "sudo chown newowner myfile.txt"
+    },
+    "96": {
+        "invocation": "Change the group owner of a file",
+        "cmd": "sudo chgrp newgroup myfile.txt"
+    },
+    "97": {
+        "invocation": "Change the permissions of a file",
+        "cmd": "chmod 644 myfile.txt"
+    },
+    "98": {
+        "invocation": "Change the permissions of a directory",
+        "cmd": "chmod 755 /path/to/directory"
+    },
+    "99": {
+        "invocation": "Delete a file",
+        "cmd": "rm myfile.txt"
+    },
+    "100": {
+        "invocation": "Delete a directory",
+        "cmd": "rm -r /path/to/directory"
+    },
+    "101": {
+        "invocation": "Delete a file without confirmation",
+        "cmd": "rm -f myfile.txt"
+    },
+    "102": {
+        "invocation": "Delete a directory without confirmation",
+        "cmd": "rm -rf /path/to/directory"
+    },
+    "103": {
+        "invocation": "Copy a file to a new location",
+        "cmd": "cp myfile.txt /path/to/new/location/"
+    },
+    "104": {
+        "invocation": "Copy a directory to a new location",
+        "cmd": "cp -r /path/to/directory /path/to/new/location/"
+    },
+    "105": {
+        "invocation": "Move a file to a new location",
+        "cmd": "mv myfile.txt /path/to/new/location/"
+    },
+    "106": {
+        "invocation": "Move a directory to a new location",
+        "cmd": "mv /path/to/directory /path/to/new/location/"
+    },
+    "107": {
+        "invocation": "Create a symbolic link to a file",
+        "cmd": "ln -s /path/to/myfile.txt myfile.link"
+    },
+    "108": {
+        "invocation": "Create a symbolic link to a directory",
+        "cmd": "ln -s /path/to/directory directory.link"
+    },
+    "109": {
+        "invocation": "Display the contents of a file in real-time",
+        "cmd": "tail -f myfile.txt"
+    },
+    "110": {
+        "invocation": "Display the log messages of a specific service",
+        "cmd": "journalctl -u myservice"
+    },
+    "111": {
+        "invocation": "Display the log messages of a specific service and follow new messages",
+        "cmd": "journalctl -u myservice -f"
+    },
+    "112": {
+        "invocation": "Display the system messages",
+        "cmd": "dmesg"
+    },
+    "113": {
+        "invocation": "Display the error messages in a log file",
+        "cmd": "grep ERROR /var/log/mylogfile"
+    },
+    "114": {
+        "invocation": "Display the warning messages in a log file",
+        "cmd": "grep WARNING /var/log/mylogfile"
+    },
+    "115": {
+        "invocation": "Display the info messages in a log file",
+        "cmd": "grep INFO /var/log/mylogfile"
+    },
+    "116": {
+        "invocation": "Create a backup of a file",
+        "cmd": "cp myfile.txt myfile.txt.bak"
+    },
+    "117": {
+        "invocation": "Create a backup of a directory",
+        "cmd": "cp -r /path/to/directory /path/to/directory.bak"
+    },
+    "118": {
+        "invocation": "Create a backup of a file with a timestamp",
+        "cmd": "cp myfile.txt myfile-$(date +\"%Y-%m-%d_%H-%M-%S\").txt"
+    },
+    "119": {
+        "invocation": "Create a backup of a directory with a timestamp",
+        "cmd": "cp -r /path/to/directory /path/to/directory-$(date +\"%Y-%m-%d_%H-%M-%S\")"
+    },
+    "120": {
+        "invocation": "Compress a directory using tar and gzip",
+        "cmd": "tar -czf archive.tar.gz /path/to/directory"
+    },
+    "121": {
+        "invocation": "Decompress a directory using tar and gzip",
+        "cmd": "tar -xzf archive.tar.gz"
+    },
+    "122": {
+        "invocation": "Compress a directory using tar and bzip2",
+        "cmd": "tar -cjf archive.tar.bz2 /path/to/directory"
+    },
+    "123": {
+        "invocation": "Decompress a directory using tar and bzip2",
+        "cmd": "tar -xjf archive.tar.bz2"
+    },
+    "124": {
+        "invocation": "Compress a directory using tar and xz",
+        "cmd": "tar -cJf archive.tar.xz /path/to/directory"
+    },
+    "125": {
+        "invocation": "Decompress a directory using tar and xz",
+        "cmd": "tar -xJf archive.tar.xz"
+    },
+    "126": {
+        "invocation": "Display the environment variables",
+        "cmd": "printenv"
+    },
+    "127": {
+        "invocation": "Set an environment variable",
+        "cmd": "export MYVAR=value"
+    },
+    "128": {
+        "invocation": "Append to an environment variable",
+        "cmd": "export MYVAR=$MYVAR:more_value"
+    },
+    "129": {
+        "invocation": "Remove an environment variable",
+        "cmd": "unset MYVAR"
+    },
+    "130": {
+        "invocation": "Run a command in the background",
+        "cmd": "command &"
+    },
+    "131": {
+        "invocation": "Run a command in the background and redirect output to a file",
+        "cmd": "command > outfile.txt 2>&1 &"
+    },
+    "132": {
+        "invocation": "Run a command in the background and discard output",
+        "cmd": "command >/dev/null 2>&1 &"
+    },
+    "133": {
+        "invocation": "List all running processes",
+        "cmd": "ps aux"
+    },
+    "134": {
+        "invocation": "List all running processes owned by a specific user",
+        "cmd": "ps -u myuser"
+    },
+    "135": {
+        "invocation": "Kill a process by its process ID",
+        "cmd": "kill 1234"
+    },
+    "136": {
+        "invocation": "Kill all processes with a specific name",
+        "cmd": "pkill myprocess"
+    },
+    "137": {
+        "invocation": "Kill all processes with a specific name owned by a specific user",
+        "cmd": "pkill -u myuser myprocess"
+    },
+    "138": {
+        "invocation": "Create a new user",
+        "cmd": "sudo adduser myuser"
+    },
+    "139": {
+        "invocation": "Delete a user",
+        "cmd": "sudo deluser myuser"
+    },
+    "140": {
+        "invocation": "Create a new group",
+        "cmd": "sudo addgroup mygroup"
+    },
+    "141": {
+        "invocation": "Delete a group",
+        "cmd": "sudo delgroup mygroup"
+    },
+    "142": {
+        "invocation": "Add a user to a group",
+        "cmd": "sudo adduser myuser mygroup"
+    },
+    "143": {
+        "invocation": "Remove a user from a group",
+        "cmd": "sudo deluser myuser mygroup"
+    },
+    "144": {
+        "invocation": "Change the password of a user",
+        "cmd": "sudo passwd myuser"
+    },
+    "145": {
+        "invocation": "Change the password of the root user",
+        "cmd": "sudo passwd"
+    },
+    "146": {
+        "invocation": "Display the available disk space",
+        "cmd": "df -h"
+    },
+    "147": {
+        "invocation": "Display the disk usage of a specific file system",
+        "cmd": "du -sh /path/to/filesystem"
+    },
+    "148": {
+        "invocation": "Display the CPU usage of all processes",
+        "cmd": "top"
+    },
+    "149": {
+        "invocation": "Display the memory usage of all processes",
+        "cmd": "top -o %MEM"
+    },
+    "150": {
+        "invocation": "Display the disk usage of all processes",
+        "cmd": "iotop"
+    },
+    "151": {
+        "invocation": "Display the network usage of all processes",
+        "cmd": "iftop"
+    },
+    "152": {
+        "invocation": "Display the IP addresses of all network interfaces",
+        "cmd": "ifconfig"
+    },
+    "153": {
+        "invocation": "Display the route table",
+        "cmd": "route"
+    },
+    "154": {
+        "invocation": "Display the ARP cache",
+        "cmd": "arp -a"
+    },
+    "155": {
+        "invocation": "Flush the DNS cache",
+        "cmd": "sudo systemctl restart systemd-resolved.service"
+    },
+    "156": {
+        "invocation": "Ping a remote host",
+        "cmd": "ping google.com"
+    },
+    "157": {
+        "invocation": "Ping a remote host with a specific packet size",
+        "cmd": "ping -s 1000 google.com"
+    },
+    "158": {
+        "invocation": "Ping a remote host with a specific number of packets",
+        "cmd": "ping -c 5 google.com"
+    },
+    "159": {
+        "invocation": "Trace the route to a remote host",
+        "cmd": "traceroute google.com"
+    },
+    "160": {
+        "invocation": "Trace the route to a remote host using TCP",
+        "cmd": "traceroute -T google.com"
+    },
+    "161": {
+        "invocation": "Trace the route to a remote host using ICMP",
+        "cmd": "traceroute -I google.com"
+    },
+    "162": {
+        "invocation": "Trace the route to a remote host with a specific maximum TTL",
+        "cmd": "traceroute -m 20 google.com"
+    },
+    "163": {
+        "invocation": "Send a file to a remote host using SCP",
+        "cmd": "scp myfile.txt user@remote:/path/to/destination/"
+    },
+    "164": {
+        "invocation": "Send a file to a remote host using SFTP",
+        "cmd": "sftp user@remote:/path/to/destination/ <<< $'put myfile.txt\nexit'"
+    },
+    "165": {
+        "invocation": "Receive a file from a remote host using SCP",
+        "cmd": "scp user@remote:/path/to/myfile.txt ."
+    },
+    "166": {
+        "invocation": "Receive a file from a remote host using SFTP",
+        "cmd": "sftp user@remote:/path/to/myfile.txt <<< $'get myfile.txt\nexit'"
+    },
+    "167": {
+        "invocation": "Create a SSH tunnel to a remote host",
+        "cmd": "ssh -L 8080:localhost:80 user@remote"
+    },
+    "168": {
+        "invocation": "Create a SSH tunnel to a remote host with a specific private key",
+        "cmd": "ssh -i /path/to/private_key -L 8080:localhost:80 user@remote"
+    },
+    "169": {
+        "invocation": "Mount a remote directory using SSHFS",
+        "cmd": "sshfs user@remote:/path/to/directory /path/to/local/mountpoint"
+    },
+    "170": {
+        "invocation": "Unmount a remote directory using SSHFS",
+        "cmd": "fusermount -u /path/to/local/mountpoint"
+    },
+    "171": {
+        "invocation": "Install a package using apt",
+        "cmd": "sudo apt install mypackage"
+    },
+    "172": {
+        "invocation": "Uninstall a package using apt",
+        "cmd": "sudo apt remove mypackage"
+    },
+    "173": {
+        "invocation": "Search for a package using apt",
+        "cmd": "apt search mypackage"
+    },
+    "174": {
+        "invocation": "Update the package list using apt",
+        "cmd": "sudo apt update"
+    },
+    "175": {
+        "invocation": "Upgrade installed packages using apt",
+        "cmd": "sudo apt upgrade"
+    },
+    "176": {
+        "invocation": "Upgrade installed packages and remove unused packages using apt",
+        "cmd": "sudo apt full-upgrade"
+    },
+    "177": {
+        "invocation": "Clean the apt cache",
+        "cmd": "sudo apt clean"
+    },
+    "178": {
+        "invocation": "Clean the apt cache and remove unused packages",
+        "cmd": "sudo apt autoclean"
+    },
+    "179": {
+        "invocation": "Install a package using yum",
+        "cmd": "sudo yum install mypackage"
+    },
+    "180": {
+        "invocation": "Uninstall a package using yum",
+        "cmd": "sudo yum remove mypackage"
+    },
+    "181": {
+        "invocation": "Search for a package using yum",
+        "cmd": "yum search mypackage"
+    },
+    "182": {
+        "invocation": "Update the package list using yum",
+        "cmd": "sudo yum update"
+    },
+    "183": {
+        "invocation": "Upgrade installed packages using yum",
+        "cmd": "sudo yum upgrade"
+    },
+    "184": {
+        "invocation": "Clean the yum cache",
+        "cmd": "sudo yum clean all"
+    },
+    "185": {
+        "invocation": "List all available services",
+        "cmd": "systemctl list-unit-files --type=service"
+    },
+    "186": {
+        "invocation": "List all active services",
+        "cmd": "systemctl list-units --type=service"
+    },
+    "187": {
+        "invocation": "Display the status of a service",
+        "cmd": "systemctl status myservice"
+    },
+    "188": {
+        "invocation": "Start a service",
+        "cmd": "sudo systemctl start myservice"
+    },
+    "189": {
+        "invocation": "Stop a service",
+        "cmd": "sudo systemctl stop myservice"
+    },
+    "190": {
+        "invocation": "Restart a service",
+        "cmd": "sudo systemctl restart myservice"
+    },
+    "191": {
+        "invocation": "Enable a service to start at boot time",
+        "cmd": "sudo systemctl enable myservice"
+    },
+    "192": {
+        "invocation": "Disable a service from starting at boot time",
+        "cmd": "sudo systemctl disable myservice"
+    },
+    "193": {
+        "invocation": "Reload the configuration of a service",
+        "cmd": "sudo systemctl reload myservice"
+    },
+    "194": {
+        "invocation": "Reload the configuration of all services",
+        "cmd": "sudo systemctl daemon-reload"
+    },
+    "195": {
+        "invocation": "List all installed packages",
+        "cmd": "dpkg -l"
+    },
+    "196": {
+        "invocation": "List all files installed by a package",
+        "cmd": "dpkg -L mypackage"
+    },
+    "197": {
+        "invocation": "Display information about a package",
+        "cmd": "dpkg -s mypackage"
+    },
+    "198": {
+        "invocation": "Install a package from a .deb file",
+        "cmd": "sudo dpkg -i mypackage.deb"
+    },
+    "199": {
+        "invocation": "Uninstall a package using dpkg",
+        "cmd": "sudo dpkg -r mypackage"
+    },
+    "200": {
+        "invocation": "Extract the contents of a .deb file",
+        "cmd": "dpkg-deb -x mypackage.deb /path/to/destination"
+    },
+    "201": {
+        "invocation": "Extract the control files from a .deb file",
+        "cmd": "dpkg-deb -e mypackage.deb /path/to/destination"
+    },
+    "202": {
+        "invocation": "Create a .deb package from a directory",
+        "cmd": "dpkg-deb -b /path/to/directory /path/to/mypackage.deb"
+    },
+    "203": {
+        "invocation": "List all installed packages using rpm",
+        "cmd": "rpm -qa"
+    },
+    "204": {
+        "invocation": "Display information about a package using rpm",
+        "cmd": "rpm -qi mypackage"
+    },
+    "205": {
+        "invocation": "List all files installed by a package using rpm",
+        "cmd": "rpm -ql mypackage"
+    },
+    "206": {
+        "invocation": "Install a package from a .rpm file",
+        "cmd": "sudo rpm -i mypackage.rpm"
+    },
+    "207": {
+        "invocation": "Uninstall a package using rpm",
+        "cmd": "sudo rpm -e mypackage"
+    },
+    "208": {
+        "invocation": "Extract the contents of a .rpm file",
+        "cmd": "rpm2cpio mypackage.rpm | cpio -idmv"
+    },
+    "209": {
+        "invocation": "Display the dependencies of a package using rpm",
+        "cmd": "rpm -qpR mypackage.rpm"
+    },
+    "210": {
+        "invocation": "Create a tar archive",
+        "cmd": "tar -cvf archive.tar /path/to/files"
+    },
+    "211": {
+        "invocation": "Create a tar archive with compression",
+        "cmd": "tar -czvf archive.tar.gz /path/to/files"
+    },
+    "212": {
+        "invocation": "Extract files from a tar archive",
+        "cmd": "tar -xvf archive.tar"
+    },
+    "213": {
+        "invocation": "Extract files from a tar archive with compression",
+        "cmd": "tar -xzvf archive.tar.gz"
+    },
+    "214": {
+        "invocation": "Create a zip archive",
+        "cmd": "zip -r archive.zip /path/to/files"
+    },
+    "215": {
+        "invocation": "Extract files from a zip archive",
+        "cmd": "unzip archive.zip"
+    },
+    "216": {
+        "invocation": "Create a gzip archive",
+        "cmd": "gzip myfile.txt"
+    },
+    "217": {
+        "invocation": "Extract a gzip archive",
+        "cmd": "gunzip myfile.txt.gz"
+    },
+    "218": {
+        "invocation": "Create a bzip2 archive",
+        "cmd": "bzip2 myfile.txt"
+    },
+    "219": {
+        "invocation": "Extract a bzip2 archive",
+        "cmd": "bunzip2 myfile.txt.bz2"
+    },
+    "220": {
+        "invocation": "Create a xz archive",
+        "cmd": "xz myfile.txt"
+    },
+    "221": {
+        "invocation": "Extract a xz archive",
+        "cmd": "unxz myfile.txt.xz"
+    },
+    "222": {
+        "invocation": "Create a tar archive and encrypt it with GPG",
+        "cmd": "tar -cvf - /path/to/files | gpg -c -o archive.tar.gpg"
+    },
+    "223": {
+        "invocation": "Extract a GPG-encrypted tar archive",
+        "cmd": "gpg -d archive.tar.gpg | tar -xvf -"
+    },
+    "224": {
+        "invocation": "Create a new Git repository",
+        "cmd": "git init"
+    },
+    "225": {
+        "invocation": "Clone a Git repository",
+        "cmd": "git clone git://github.com/myuser/myproject.git"
+    },
+    "226": {
+        "invocation": "Add a file to the Git index",
+        "cmd": "git add myfile.txt"
+    },
+    "227": {
+        "invocation": "Commit changes to the Git repository",
+        "cmd": "git commit -m 'my commit message'"
+    },
+    "228": {
+        "invocation": "Push changes to a remote Git repository",
+        "cmd": "git push"
+    },
+    "229": {
+        "invocation": "Pull changes from a remote Git repository",
+        "cmd": "git pull"
+    },
+    "230": {
+        "invocation": "Display the Git log",
+        "cmd": "git log"
+    },
+    "231": {
+        "invocation": "Display the Git status",
+        "cmd": "git status"
+    },
+    "232": {
+        "invocation": "Create a new branch in Git",
+        "cmd": "git branch mybranch"
+    },
+    "233": {
+        "invocation": "Switch to a branch in Git",
+        "cmd": "git checkout mybranch"
+    },
+    "234": {
+        "invocation": "Delete a branch in Git",
+        "cmd": "git branch -d mybranch"
+    },
+    "235": {
+        "invocation": "Merge a branch into the current branch in Git",
+        "cmd": "git merge mybranch"
+    },
+    "236": {
+        "invocation": "Rebase the current branch in Git",
+        "cmd": "git rebase mybranch"
+    },
+    "237": {
+        "invocation": "Display the Git diff",
+        "cmd": "git diff"
+    },
+    "238": {
+        "invocation": "Display the Git diff for a specific file",
+        "cmd": "git diff myfile.txt"
+    },
+    "239": {
+        "invocation": "Create a new tag in Git",
+        "cmd": "git tag mytag"
+    },
+    "240": {
+        "invocation": "Push a tag to a remote Git repository",
+        "cmd": "git push --tags"
+    },
+    "241": {
+        "invocation": "Delete a tag in Git",
+        "cmd": "git tag -d mytag"
+    },
+    "242": {
+        "invocation": "List all tags in Git",
+        "cmd": "git tag"
+    },
+    "243": {
+        "invocation": "Create a new virtual environment using virtualenv",
+        "cmd": "virtualenv myenv"
+    },
+    "244": {
+        "invocation": "Activate a virtual environment",
+        "cmd": "source myenv/bin/activate"
+    },
+    "245": {
+        "invocation": "Deactivate a virtual environment",
+        "cmd": "deactivate"
+    },
+    "246": {
+        "invocation": "Install packages using pip",
+        "cmd": "pip install mypackage"
+    },
+    "247": {
+        "invocation": "Uninstall packages using pip",
+        "cmd": "pip uninstall mypackage"
+    },
+    "248": {
+        "invocation": "List installed packages using pip",
+        "cmd": "pip list"
+    },
+    "249": {
+        "invocation": "Create a new Django project",
+        "cmd": "django-admin startproject myproject"
+    },
+    "250": {
+        "invocation": "Create a new Django app",
+        "cmd": "python manage.py startapp myapp"
+    },
+    "251": {
+        "invocation": "Create a Django superuser",
+        "cmd": "python manage.py createsuperuser"
+    },
+    "252": {
+        "invocation": "Run Django development server",
+        "cmd": "python manage.py runserver"
+    },
+    "253": {
+        "invocation": "Run Django unit tests",
+        "cmd": "python manage.py test"
+    },
+    "254": {
+        "invocation": "Run Django database migrations",
+        "cmd": "python manage.py migrate"
+    },
+    "255": {
+        "invocation": "Create a new Celery task",
+        "cmd": "celery -A myapp.tasks worker --loglevel=info"
+    },
+    "256": {
+        "invocation": "Create a new Flask app",
+        "cmd": "export FLASK_APP=myapp.py && flask run"
+    },
+    "257": {
+        "invocation": "Run a Python script",
+        "cmd": "python myscript.py"
+    },
+    "258": {
+        "invocation": "Run a Python script with arguments",
+        "cmd": "python myscript.py arg1 arg2"
+    },
+    "259": {
+        "invocation": "Run a Python script in the background",
+        "cmd": "nohup python myscript.py > output.log &"
+    },
+    "260": {
+        "invocation": "List all running processes",
+        "cmd": "ps aux"
+    },
+    "261": {
+        "invocation": "Kill a process by PID",
+        "cmd": "kill pid"
+    },
+    "262": {
+        "invocation": "Kill all processes with a specific name",
+        "cmd": "pkill myprocess"
+    }
+}
